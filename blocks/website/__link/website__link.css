@@ -1,0 +1,12 @@
+.website__link{
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    text-decoration: underline;
+    cursor: url(../../../images/sprint-3-images/Cursor/Pointer.svg), pointer;
+}
+.website__link:hover{
+    opacity: 80%;
+}

@@ -1,0 +1,33 @@
+.places{
+    max-width: calc(100% - 296px);
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 80px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px){
+    .places{
+        max-width: 984px;
+    }
+  }
+
+@media screen and (max-width: 1124px){
+    .places{
+      max-width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 868px){
+    .places{
+      max-width: calc(100% - 48px);
+      row-gap: 73px;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .places{
+        max-width: calc(100% - 32px);
+        row-gap: 50px;
+    }
+ }

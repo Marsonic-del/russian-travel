@@ -1,0 +1,31 @@
+.intro{
+    max-width: 690px;
+    margin-left: calc((100% - 984px)/2);
+    margin-top: 92px;
+  }
+
+@media screen and (max-width:1087px){
+    .intro{
+        margin-left: calc((100% - 90.7%) / 2);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .intro{
+        max-width: 720px;
+        margin: 88px auto 0;
+    }
+}
+
+@media screen and (max-width: 748px){
+    .intro{
+        max-width: calc(100% - 26px);
+    }
+ }
+
+@media screen and (max-width: 355px){
+    .intro{
+        max-width: 288px;
+        margin-top: 64px;
+    }
+ }

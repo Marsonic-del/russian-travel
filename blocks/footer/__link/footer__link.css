@@ -1,0 +1,21 @@
+.footer__link{
+    font-size: 16px;
+    line-height: 1.12;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    opacity: 1;
+    color: #fff;
+    cursor: url(../../../images/sprint-3-images/Cursor/Pointer.svg), pointer;
+}
+
+.footer__link:hover{
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 520px){
+    .footer__link{
+      font-size: 24px;
+      line-height: 1;
+  }
+}
