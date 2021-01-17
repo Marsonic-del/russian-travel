@@ -6,7 +6,14 @@
     color: #ffffff;
     text-decoration: underline;
     cursor: url(../../../images/sprint-3-images/Cursor/Pointer.svg), pointer;
+    transition: opacity linear 0.25s;
 }
 .website__link:hover{
-    opacity: 80%;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px){
+    .website__link{
+        line-height: 1.22;
+    }
 }

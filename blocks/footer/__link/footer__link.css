@@ -7,6 +7,7 @@
     opacity: 1;
     color: #fff;
     cursor: url(../../../images/sprint-3-images/Cursor/Pointer.svg), pointer;
+    transition: opacity linear 0.25s;
 }
 
 .footer__link:hover{

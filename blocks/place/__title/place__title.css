@@ -21,5 +21,8 @@
       font-size: 32px;
       line-height: 1.09;
       letter-spacing: normal;
+      min-width: calc(100% - 32px);
+      margin-right: auto;
+      margin-left: auto;
    }
 }
