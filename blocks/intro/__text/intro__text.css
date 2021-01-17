@@ -4,7 +4,13 @@
     line-height: 1.63;
     font-weight: 400;
     margin: 0 0 33px;
-} 
+}
+
+@media screen and (max-width: 768px){
+    .intro__text{
+        max-width: 100%;
+    }
+}
 
 @media screen and (max-width: 355px){
     .intro__text{

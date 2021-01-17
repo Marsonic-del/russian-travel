@@ -22,18 +22,20 @@
     }
 
     .footer__links li{
-        margin: 0;
+        margin-right: 0;
     }
 }
 
 @media screen and (max-width: 520px){
     .footer__links{
+        /* Если удалить display: flex; то елемнт становится грид-контейнером*/
         display: flex;
         flex-direction: column;
         gap: 0;
+        margin-bottom: 48px;
     }
 
     .footer__links li{
-      margin: 0 0 32px;
+      margin-bottom: 32px;
   }
 }
