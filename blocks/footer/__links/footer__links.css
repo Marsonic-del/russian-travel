@@ -5,24 +5,12 @@
     display: flex;
 }
 
-.footer__links li{
-    margin-right: 18px;
-}
-
-.footer__links li:last-of-type{
-    margin: 0;
-}
-
 @media screen and (max-width: 700px){
     .footer__links{
         display: grid;
         grid-template-columns: repeat(2, minmax(min-content, max-content));
         gap: 20px 40px;
         margin-bottom: 50px;
-    }
-
-    .footer__links li{
-        margin-right: 0;
     }
 }
 
@@ -34,8 +22,4 @@
         gap: 0;
         margin-bottom: 48px;
     }
-
-    .footer__links li{
-      margin-bottom: 32px;
-  }
 }
